@@ -7,6 +7,11 @@ TagManager:
   - PlayerEyes
   - Collectable
   - CollectPoint
+  - Barrier
+  - EnemySlime
+  - EnemyTurtle
+  - FinishLine
+  - Ground
   layers:
   - Default
   - TransparentFX
