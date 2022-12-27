@@ -129,6 +129,7 @@ public class PlayerController : MonoBehaviour
     void ShowWinPanel()
     {
         started = false;
+        transform.Translate(0, 0, 0);
         playerAnimator.SetFloat("Blend", 0, 0, 0);
         finishParticle.Play();
         ScoreText.text = $"You have collected {collectedCount} items";
